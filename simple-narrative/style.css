@@ -1,1 +1,8 @@
-.size {width:70%}
+* {
+    box-sizing: border-box;
+}
+.size {width:65%;}
+
+.arrow{
+    width:15%;
+}
