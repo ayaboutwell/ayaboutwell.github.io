@@ -1,1 +1,27 @@
 <!DOCTYPE html>
+<html> 
+    <head>
+
+    <title>piece 4</title>
+    <link> href="style.css" rel="stylesheet" type='text/css">
+    </head>
+
+    <body>
+    <a href="index.html">piece 1 </a>
+    <a href="page-two.html">piece 2 </a>
+    <a href="page-three.html">piece 3 </a>
+    <a href="page-four.html">piece 4 </a>
+    <a href="page-five.html">piece 5 </a>
+    
+    <h1> five neat pieces of furniture</h1>
+    <a href="page-three.html"> <img src="images/arrowleft.jpg"> </a>
+    <img class="size"><img src="images/metaltable.jpg">
+    <a href="page-five.html"> <img src="images/arrowright.jpg"> </a>
+    <h4> 4 </h4>
+    <p> This neat side table </p>
+
+</body>
+
+
+
+</html>
