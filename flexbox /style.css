@@ -1,0 +1,73 @@
+* {
+    box-sizing:border-box;
+}
+
+body {
+font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+font-size: 20px;
+line-height: 24px;
+}
+
+header {
+    width: 80%;
+    margin: 40px auto;   
+}
+
+main {
+    background-color: whitesmoke;
+    padding: 20px;
+}
+.news {
+    display:flex;
+    margin-bottom:60px;
+}
+
+.news .left {
+flex:1;
+
+}
+
+.news .right {
+
+flex:3;
+}
+.gallery{
+display: flex;
+flex-wrap: wrap;
+}
+
+.gallery div {border: 1px black;
+}
+
+img {width:100%}
+
+.gallery div {
+    flex: 25%;
+}
+
+
+h1,
+h2,
+h3 {font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h1 {
+font-size: 60px;
+line-height: 68px;
+margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 32px;
+    line-height: 36px;
+    margin-top: 16px;
+    margin-bottom: 12px;
+}
+
+p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 16px;
+    line-height: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
