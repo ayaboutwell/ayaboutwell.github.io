@@ -1,0 +1,133 @@
+@font-face {
+    font-family: "Tapeman";
+    src: url("fonts/tapem__.ttf") format("truetype")
+  }
+
+  @font-face {
+    font-family:"input-mono";
+    src:url("https://use.typekit.net/af/f1b774/00000000000000007735b11b/30/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("woff2"),url("https://use.typekit.net/af/f1b774/00000000000000007735b11b/30/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("woff"),url("https://use.typekit.net/af/f1b774/00000000000000007735b11b/30/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("opentype");
+    font-display:auto;font-style:normal;font-weight:200;font-stretch:normal;
+    }
+
+* {
+    box-sizing:border-box;
+}
+
+
+h1, h2, h3, h4 {font-family: "Tapeman"}
+
+h1 {
+    font-size: 60px ;
+    color: #D5A995;
+}
+
+h2 { font-size: ; }
+
+h3 { font-size: ;  }
+
+h4 {font-size: ;  }
+
+img { width: 100%;}
+
+main {
+    background: #F8F8F2;
+}
+
+header {
+    width: 80%;
+    margin: 0px auto;      
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+  }
+
+nav image{
+    width:20%;
+}
+
+body {
+    margin: 0;
+    scroll-behavior: horizontal;
+    font-family: input-mono, monospace;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 24px;
+    padding: 40px;
+
+    background-repeat: repeat;
+    background-image: src="images/grid.png"
+
+    }
+
+    header {
+        width: %;
+        margin: 40px auto;   
+    }
+    
+    main {
+    width:1000vw;
+    display:flex;
+    padding: 40px;
+    }
+
+    section {
+    flex:100vw;
+    height:100vh;
+    }
+
+    .page-one {
+        background: #F8F8F2;
+        position:relative;
+    }
+
+    .page-two {
+        background:#F8F8F2;
+    }
+
+    .page-three {
+        background:#303647;
+    }
+    .circle {
+        background-color:#E3C8BC;
+        height:500px;
+        width:500px;
+        border-radius: 50%;
+    }
+    .open-card {
+
+        width:500px;  
+        margin: 60px;
+    }
+
+    .parent {
+        position: relative;
+        top: 60;
+        left: 0;
+        size: 10%;
+      }
+      .sleeve {
+        position: relative;
+        top: 0;
+        left: 0;
+      }
+      .card{
+        position: absolute;
+        top: 0px;
+        left: 100px;
+      }
+      .circle {
+      position: absolute
+      left: 80px;
+
+      }
+
+      .hotline {
+        width: 500px;
+        margin; 40px;
+      }
+
+
+
