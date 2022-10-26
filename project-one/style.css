@@ -3,7 +3,7 @@
     src: url("fonts/tapem__.ttf") format("truetype")
   }
 
-  @font-face {
+@font-face {
     font-family:"input-mono";
     src:url("https://use.typekit.net/af/f1b774/00000000000000007735b11b/30/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("woff2"),url("https://use.typekit.net/af/f1b774/00000000000000007735b11b/30/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("woff"),url("https://use.typekit.net/af/f1b774/00000000000000007735b11b/30/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("opentype");
     font-display:auto;font-style:normal;font-weight:200;font-stretch:normal;
@@ -57,10 +57,9 @@ body {
     line-height: 24px;
     padding: 40px;
     background: #F8F8F2;
-    cursor: url( images/)  , auto;
+    cursor: url(images/jack-plug.png) , auto;
 }
 
-    }
 
     header {
         margin: 40px auto;   
@@ -81,16 +80,24 @@ body {
     width:50px;  
     }
 
+    /* intro page*/
+
     .page-intro {
         background: #F8F8F2;
         background-repeat: repeat;
-        background-image: url("images/square-grid.png") /*help*/
+        background-image: url("images/square-grid.png") /*help w opacity*/
     }
 
     .sony-box {
-        width: 200px;
+        width: 600px;
+        position: absolute;
     }
 
+    .manual-contents {
+        width: 100px;
+      }
+
+/*card page*/
 
     .page-card {
         background: #F8F8F2;
@@ -98,7 +105,7 @@ body {
         background-image: url("images/square-grid.png") /*help*/
     }
 
-    .page-two {
+    .page-hotline {
         background:#F8F8F2;
     }
 
@@ -137,10 +144,19 @@ body {
 
       }
 
+      /*hotline page*/
+
 .hotline{
 margin: 0px;
 
 }
+
+.hotline-jack {
+    width: 500px;
+    margin-top: 100px;
+    position:absolute; 
+
+  }
       .hotline-text {
         font-size: 14px;
         width: 340px;
@@ -148,21 +164,41 @@ margin: 0px;
         color: black; /*should be cream color*/
       }
 
-      .hotline-box {
-        width: 600px;
+      .hotline-text-box {
+        width: 700px;
         position: absolute;
       }
-      .manual-contents {
-        width: 100px;
-      }
-      .audio-jack {
-        width: 300px;
-        margin-top: 100px;
+
+
+      .hotline-walking-walkman {
+        width: 400px;
+        position:absolute; 
       }
 
-      .audio-jack {
-        width: 500px;
+      .hotline-line-blue {
+        width: 800px;
       }
+
+      .hotline-walkman-logo {
+        width: 700px;
+        position:absolute; 
+      }
+
+
+/*listen page*/
+
+    .listen-text{
+        font-size: 14px;
+        width: 420px;
+        margin: 20px;
+        color: black; /*should be cream color*/
+      }
+
+    .listen-text-box{
+        width: 700px;
+        position: absolute;
+    }
+
 
       /* blue page */
 
@@ -173,6 +209,7 @@ margin: 0px;
       .silver-side {
         width: 500px;
     }
+
 
     .back-side {
         width: 500px;
