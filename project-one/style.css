@@ -17,7 +17,7 @@
 h1, h2, h3, h4 {font-family: "Tapeman"}
 
 h1 {
-    font-size: 60px ;
+    font-size: 150px ;
     color: #D5A995;
 }
 
@@ -56,19 +56,18 @@ body {
     font-size: 16px;
     line-height: 24px;
     padding: 40px;
-
-    background-repeat: repeat;
-    background-image: src="images/grid.png"
+    background: #F8F8F2;
+    cursor: url( images/)  , auto;
+}
 
     }
 
     header {
-        width: %;
         margin: 40px auto;   
     }
     
     main {
-    width:1000vw;
+    width:600vw;
     display:flex;
     padding: 40px;
     }
@@ -78,9 +77,25 @@ body {
     height:100vh;
     }
 
-    .page-one {
+    nav .card-icon{
+    width:50px;  
+    }
+
+    .page-intro {
         background: #F8F8F2;
-        position:relative;
+        background-repeat: repeat;
+        background-image: url("images/square-grid.png") /*help*/
+    }
+
+    .sony-box {
+        width: 200px;
+    }
+
+
+    .page-card {
+        background: #F8F8F2;
+        background-repeat: repeat;
+        background-image: url("images/square-grid.png") /*help*/
     }
 
     .page-two {
@@ -96,17 +111,15 @@ body {
         width:500px;
         border-radius: 50%;
     }
-    .open-card {
-
+    .card-slide {
         width:500px;  
-        margin: 60px;
+        margin: 0px;
     }
 
-    .parent {
+    .open-card {
         position: relative;
         top: 60;
         left: 0;
-        size: 10%;
       }
       .sleeve {
         position: relative;
@@ -119,15 +132,65 @@ body {
         left: 100px;
       }
       .circle {
-      position: absolute
-      left: 80px;
+      position: relative;
+      left: 50px;
 
       }
 
-      .hotline {
+.hotline{
+margin: 0px;
+
+}
+      .hotline-text {
+        font-size: 14px;
+        width: 340px;
+        margin: 20px;
+        color: black; /*should be cream color*/
+      }
+
+      .hotline-box {
+        width: 600px;
+        position: absolute;
+      }
+      .manual-contents {
+        width: 100px;
+      }
+      .audio-jack {
+        width: 300px;
+        margin-top: 100px;
+      }
+
+      .audio-jack {
         width: 500px;
-        margin; 40px;
       }
 
+      /* blue page */
+
+      .stereo-side {
+        width: 500px;
+      }
+
+      .silver-side {
+        width: 500px;
+    }
+
+    .back-side {
+        width: 500px;
+     }
+
+      @-webkit-keyframes pulse {
+        0% { box-shadow:0 0 8px #F8F8F2, inset 0 0 8px #F8F8F2; }
+        50% { box-shadow:0 0 16px #F8F8F2, inset 0 0 14px #F8F8F2; }
+        100% { box-shadow:0 0 8px #F8F8F2, inset 0 0 8px #F8F8F2; }
+      }
+
+.halo {
+    background-color:transparent;
+    width:800px;
+    height:800px;
+    border-radius:500px;
+    box-shadow: 0 0 8px #F8F8F2, inset 0 0 8px #F8F8F2;
+    -webkit-animation: pulse 2s linear 1s infinite;
+  }
 
 
