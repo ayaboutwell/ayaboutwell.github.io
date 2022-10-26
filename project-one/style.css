@@ -14,7 +14,7 @@
 }
 
 
-h1, h2, h3, h4 {font-family: "Tapeman"}
+h1, h2, h3 {font-family: "Tapeman"}
 
 h1 {
     font-size: 150px ;
@@ -23,9 +23,16 @@ h1 {
 
 h2 { font-size: ; }
 
-h3 { font-size: ;  }
+h3 { 
+  font-size: 28px ; 
+  color: #D5A995; 
+}
 
-h4 {font-size: ;  }
+h4 {
+  font-family: "input-mono";
+  font-size: 18;
+  color:#303647;
+  }
 
 img { width: 100%;}
 
@@ -87,7 +94,9 @@ body {
         background-repeat: repeat;
         background-image: url("images/square-grid.png") /*help w opacity*/
     }
-
+.intro-walkman {
+  stroke:#F8F8F2
+}
     .sony-box {
         width: 600px;
         position: absolute;
@@ -109,7 +118,7 @@ body {
         background:#F8F8F2;
     }
 
-    .page-three {
+    .page-anatomy {
         background:#303647;
     }
     .circle {
@@ -177,11 +186,17 @@ margin: 0px;
 
       .hotline-line-blue {
         width: 800px;
+        position: absolute;
       }
 
       .hotline-walkman-logo {
         width: 700px;
         position:absolute; 
+      }
+
+      .hotline-tapeman-trio {
+        width:800px;
+        position: absolute;
       }
 
 
@@ -199,7 +214,26 @@ margin: 0px;
         position: absolute;
     }
 
+    .listen-headphone{
+      width: 600px;
+      position: absolute;
+}
 
+.listen-line-silver {
+  width: 800px;
+  position: absolute;
+
+}
+
+.listen-silver-side {
+  width:800px;
+  position: absolute;
+}
+
+.listen-the-first{
+  width:800px;
+  position: absolute;
+}
       /* blue page */
 
       .stereo-side {
