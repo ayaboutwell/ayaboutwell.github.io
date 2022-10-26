@@ -64,7 +64,7 @@ body {
     line-height: 24px;
     padding: 40px;
     background: #F8F8F2;
-    cursor: url(images/jack-plug.png) , auto;
+    cursor: url(images/cursor%20arrow.png) , auto;
 }
 
 
@@ -94,11 +94,13 @@ body {
         background-repeat: repeat;
         background-image: url("images/square-grid.png") /*help w opacity*/
     }
+
+
 .intro-walkman {
   stroke:#F8F8F2
 }
     .sony-box {
-        width: 600px;
+        width: 25%;
         position: absolute;
     }
 
@@ -123,12 +125,11 @@ body {
     }
     .circle {
         background-color:#E3C8BC;
-        height:500px;
-        width:500px;
+        width: 80%;
         border-radius: 50%;
     }
     .card-slide {
-        width:500px;  
+        width: 40%;  
         margin: 0px;
     }
 
@@ -138,16 +139,19 @@ body {
         left: 0;
       }
       .sleeve {
+        width: 40%;
         position: relative;
         top: 0;
         left: 0;
       }
       .card{
+        width: 40%;
         position: absolute;
         top: 0px;
         left: 100px;
       }
       .circle {
+        width: 50%;
       position: relative;
       left: 50px;
 
@@ -160,8 +164,11 @@ margin: 0px;
 
 }
 
+.hotline-h4 {
+  transform: rotate(-90deg)
+}
 .hotline-jack {
-    width: 500px;
+    width: 30%;
     margin-top: 100px;
     position:absolute; 
 
@@ -174,33 +181,42 @@ margin: 0px;
       }
 
       .hotline-text-box {
-        width: 700px;
+        width: 35%;
         position: absolute;
       }
 
 
       .hotline-walking-walkman {
-        width: 400px;
+        width: 10%;
         position:absolute; 
       }
 
       .hotline-line-blue {
-        width: 800px;
+        width: 60%;
         position: absolute;
       }
 
       .hotline-walkman-logo {
-        width: 700px;
+        width: 20%;
         position:absolute; 
       }
 
       .hotline-tapeman-trio {
-        width:800px;
+        width: 20%;
         position: absolute;
       }
 
 
 /*listen page*/
+
+.listen-walkman-wordmark{
+  width: 20%;
+  transform: rotate(-90deg)
+}
+.listen-h4 {
+  transform: rotate(-90deg)
+}
+
 
     .listen-text{
         font-size: 14px;
@@ -210,43 +226,58 @@ margin: 0px;
       }
 
     .listen-text-box{
-        width: 700px;
+        width: 35%;
         position: absolute;
     }
 
     .listen-headphone{
-      width: 600px;
+      width: 15%;
       position: absolute;
 }
 
 .listen-line-silver {
-  width: 800px;
+  width: 40%;
   position: absolute;
 
 }
 
 .listen-silver-side {
-  width:800px;
+  width: 10%;
   position: absolute;
 }
 
-.listen-the-first{
-  width:800px;
+.listen-first{
+  width: 35%;
   position: absolute;
 }
-      /* blue page */
+      /* blue anatomy page */
 
-      .stereo-side {
-        width: 500px;
+.page-anatomy{
+      background-repeat: repeat;
+      background-image: url("images/grid-light.png"); /*i want to rotate this image 90 deg*/
+      background-size: 30%;
+      
+
+}
+      h3 .page-anatomy{
+        letter-spacing: 1px;
       }
 
+      .stereo-side {
+        width: 20%;
+      }
+
+    
       .silver-side {
-        width: 500px;
+        width: 10%;
     }
 
-
     .back-side {
-        width: 500px;
+        width: 30%;
+     }
+
+     .side-side{
+      width: 30%;
      }
 
       @-webkit-keyframes pulse {
@@ -264,4 +295,7 @@ margin: 0px;
     -webkit-animation: pulse 2s linear 1s infinite;
   }
 
-
+  /* I want a different footer for light and dark pages */
+ img .footer {
+width: 10%;
+  }
