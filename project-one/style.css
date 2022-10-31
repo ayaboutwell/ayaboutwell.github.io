@@ -86,9 +86,7 @@ body {
     height:100vh;
     }
 
-    nav .card-icon{
-    width:50px;  
-    }
+
 
 
 
@@ -110,21 +108,32 @@ body {
     }
 
     .manual-contents {
-        width: 100px;
+        width: 80%;
+        align-content: center;
       }
 
 
 /* contents page*/
 
-
-.page-contents{
+.page-opening-text{
+  color:#303647;
   background: #F8F8F2;
   background-repeat: repeat;
   background-image: url("images/square-grid.png")
-
 }
+
+.page-opening-text h4 {
+justify-content:  center;
+}
+
+.page-contents{
+  background: #F8F8F2; 
+  background-repeat: repeat;
+  background-image: url("images/square-grid.png")
+}
+
       img .page-contents {
-        width: 80%; /* I want this centered, and bigger*/
+        width: 80%;
       }
   
 /*card page*/
@@ -318,9 +327,25 @@ margin: 0px;
 
   
   /* I want a different footer for light and dark pages, and the image is not getting small how i want it to */
- img .footer {
+.footer {
 width: 10%;
   }
+
+
+  .pulse a:hover{ 
+    animation: pulse 2s infinite;
+    animation-timing-function: linear;   
+  }
+  
+  @keyframes pulse {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.1);
+    100% { transform: scale(1); }
+    }
+  }
+
+
+  /*menu stuff*/
 
   .container {
   max-width: 1050px;
@@ -352,7 +377,7 @@ width: 10%;
   text-decoration: none;
   color: #D5A995;
   font-weight: 500;
-  font-size: 1.2rem;
+  font-size: 12px;
   padding: 0.7rem;
 }
 
@@ -383,7 +408,7 @@ width: 10%;
   height: 26px;
   width: 32px;
   position: absolute;
-  top: 17px;
+  top: 30px;
   left: 20px;
   z-index: 2;
   display: flex;
@@ -449,10 +474,14 @@ width: 10%;
   display: none;
 }
 
-
+img .menu-items {
+  width: 50px;
+}
 
 /* back to home */
 .back-home{
   font-family: "Tapeman";
   color: #303647
 }
+
+
