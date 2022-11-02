@@ -14,9 +14,6 @@
 }
 
 
-
-
-
 h1, h2, h3 {font-family: "Tapeman"}
 
 h1 {
@@ -51,6 +48,7 @@ header {
 html, body {
     height: 100%;
     width: 100%;
+    scroll-behavior: smooth;
   }
 
 nav image{
