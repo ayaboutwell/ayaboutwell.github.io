@@ -17,7 +17,7 @@
 h1, h2, h3 {font-family: "Tapeman"}
 
 h1 {
-    font-size: 150px ;
+    font-size: 142px ;
     color: #D5A995;
 }
 
@@ -85,9 +85,6 @@ body {
     }
 
 
-
-
-
     /* intro page*/
 
     .page-intro {
@@ -96,22 +93,22 @@ body {
         background-image: url("images/square-grid.png") /*help w opacity*/
     }
 
-
-.intro-walkman {
-  stroke:#F8F8F2
-}
     .sony-box {
         width: 25%;
         position: absolute;
+        margin-top: 300px;
     }
 
-    .manual-contents {
-        width: 80%;
-        align-content: center;
-      }
+    .intro-walkman {
+      margin-top: 345px;
+      margin-left: 310px;
+      stroke:#F8F8F2;
+      stroke-width: 2%;
+     
+    }
 
 
-/* contents page*/
+/*opening text page */
 
 .page-opening-text{
   color:#303647;
@@ -121,8 +118,17 @@ body {
 }
 
 .page-opening-text h4 {
-justify-content:  center;
+  justify-content:  center;
+  transform: scale(1);
 }
+
+/* contents page*/
+
+.manual-contents {
+  width: 80%;
+  align-content: center;
+}
+
 
 .page-contents{
   background: #F8F8F2; 
@@ -140,9 +146,11 @@ justify-content:  center;
         background: #F8F8F2;
         background-repeat: repeat;
         background-image: url("images/square-grid.png") /*help*/
+     
     }
 
-    .page-hotline {
+
+    .page-playback {
         background:#F8F8F2;
         background-repeat: repeat;
         background-image: url("images/square-grid.png")
@@ -185,96 +193,96 @@ justify-content:  center;
 
       }
 
-      /*hotline page*/
+      /*playback page*/
 
-.hotline{
+.playback{
 margin: 0px;
 
 }
 
-.hotline-h4 {
+.playback-h4 {
   transform: rotate(-90deg)
 }
-.hotline-jack {
+.playback-jack {
     width: 30%;
     margin-top: 100px;
     position:absolute; 
 
   }
-      .hotline-text {
+      .playback-text {
         font-size: 14px;
         width: 340px;
         margin: 20px;
         color: black; /*should be cream color*/
       }
 
-      .hotline-text-box {
+      .playback-text-box {
         width: 35%;
         position: absolute;
       }
 
 
-      .hotline-walking-walkman {
+      .playback-walking-walkman {
         width: 10%;
         position:absolute; 
       }
 
-      .hotline-line-blue {
+      .playback-line-blue {
         width: 60%;
         position: absolute;
       }
 
-      .hotline-walkman-logo {
+      .playback-walkman-logo {
         width: 20%;
         position:absolute; 
       }
 
-      .hotline-tapeman-trio {
+      .playback-tapeman-trio {
         width: 20%;
         position: absolute;
       }
 
 
-/*listen page*/
+/*controls page*/
 
-.listen-walkman-wordmark{
+.controls-walkman-wordmark{
   width: 20%;
   transform: rotate(-90deg)
 }
-.listen-h4 {
+.controls-h4 {
   transform: rotate(-90deg)
 }
 
 
-    .listen-text{
+    .controls-text{
         font-size: 14px;
         width: 420px;
         margin: 20px;
         color: black; /*should be cream color*/
       }
 
-    .listen-text-box{
+    .controls-text-box{
         width: 35%;
         position: absolute;
     }
 
-    .listen-headphone{
+    .controls-headphone{
       width: 15%;
       position: absolute;
 }
 
-.listen-line-silver {
+.controls-line-silver {
   width: 40%;
   position: absolute;
 
 }
 
-.listen-silver-side {
+.controls-silver-side {
   width: 10%;
   position: absolute;
 }
 
-.listen-first{
+.controls-first{
   width: 35%;
   position: absolute;
 }
@@ -412,14 +420,15 @@ width: 10%;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+
 }
 
 .nav-container .menu-button .line {
   display: block;
-  height: 4px;
+  height: 10px;
   width: 100%;
   border-radius: 10px;
-
+  animate__pulse /* don't know how to use this*/
 }
 
 
@@ -478,8 +487,7 @@ img .menu-items {
 
 /* back to home */
 .back-home{
-  font-family: "Tapeman";
-  color: #303647
+  font-family: "Tapeman" 
 }
 
 
