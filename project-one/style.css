@@ -99,11 +99,12 @@ body {
         width: 25%;
         position: absolute;
         margin-top: 300px;
+        margin-left: 160px;
     }
 
     .intro-walkman {
       margin-top: 345px;
-      margin-left: 310px;
+      margin-left: 480px;
       stroke:#F8F8F2;
       stroke-width: 2%;
      
@@ -430,7 +431,7 @@ input[type="checkbox"]:checked {
 
 .nav-container .menu-button {
   display: block;
-  width: 100px;
+  width: 80px;
   position: absolute;
   top: 30px;
   left: 0px;
@@ -445,7 +446,7 @@ input[type="checkbox"]:checked {
   display: block;
   height: 10px;
   width: 100%;
-  border-radius: 10px;
+  border-radius: 0px;
   animate__pulse /* don't know how to use this*/
 }
 
@@ -456,12 +457,12 @@ input[type="checkbox"]:checked {
   box-shadow: inset 0 0 2000px rgba(255, 255, 255, .5);
   background-color: #303647;
   height: 100vh;
-  width: 100%;
+  width: 100vw;
   transform: translate(-150%);
   display: flex;
   flex-direction: column;
-  margin-left: -40px;
-  padding-left: 50px;
+  margin-left: 0px;
+  padding-left: 0px;
   transition: transform 0.5s ease-in-out;
   text-align: center;
 }
@@ -484,15 +485,15 @@ input[type="checkbox"]:checked {
   transform: translateX(0);
 }
 
-.nav-container input[type="checkbox"]:checked ~ .hamburger-lines .line1 {
+.nav-container input[type="checkbox"]:checked ~ .menu-button .line1 {
   transform: rotate(45deg);
 }
 
-.nav-container input[type="checkbox"]:checked ~ .hamburger-lines .line2 {
+.nav-container input[type="checkbox"]:checked ~ .menu-button .line2 {
   transform: scaleY(0);
 }
 
-.nav-container input[type="checkbox"]:checked ~ .hamburger-lines .line3 {
+.nav-container input[type="checkbox"]:checked ~ .menu-button .line3 {
   transform: rotate(-45deg);
 }
 
