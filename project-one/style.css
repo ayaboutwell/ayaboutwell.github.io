@@ -92,7 +92,8 @@ body {
     .page-intro {
         background: #F8F8F2;
         background-repeat: repeat;
-        background-image: url("images/square-grid.png") /*help w opacity*/
+        /*background-blend-mode:color-burn;*/
+        background-image: url("images/square-grid.png")/*help w opacity*/
     }
 
     .sony-box {
@@ -121,7 +122,7 @@ body {
 }
 
 .page-opening-text h4 {
-  justify-content:  center;
+  justify-content: center;
   transform: scale(1);
 }
 
