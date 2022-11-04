@@ -24,7 +24,7 @@ h1 {
 h2 { font-size: ; }
 
 h3 { 
-  font-size: 28px ; 
+  font-size: 20px ; 
   color: #D5A995; 
 }
 
@@ -118,19 +118,22 @@ body {
   color:#303647;
   background: #F8F8F2;
   background-repeat: repeat;
-  background-image: url("images/square-grid.png")
+  background-image: url("images/square-grid.png");
+  justify-content: center;
+  justify-items: center;
 }
 
 .page-opening-text h4 {
-  justify-content: center;
+  text-align: center;
   transform: scale(1);
+  margin-top: 50%;
 }
 
 
 /* contents page*/
 
 .manual-contents {
-  width: 80%;
+  width: 55%;
   align-content: center;
 }
 
@@ -138,7 +141,8 @@ body {
 .page-contents{
   background: #F8F8F2; 
   background-repeat: repeat;
-  background-image: url("images/square-grid.png")
+  background-image: url("images/square-grid.png");
+  justify-content:center
 }
 
       img .page-contents {
@@ -150,7 +154,8 @@ body {
     .page-card {
         background: #F8F8F2;
         background-repeat: repeat;
-        background-image: url("images/square-grid.png") /*help*/
+        background-image: url("images/square-grid.png"); /*help*/
+        justify-content: center;
      
     }
 
@@ -158,7 +163,7 @@ body {
     .page-playback {
         background:#F8F8F2;
         background-repeat: repeat;
-        background-image: url("images/square-grid.png")
+        background-image: url("images/square-grid.png");
     }
 
     .page-anatomy {
@@ -204,90 +209,132 @@ margin: 0px;
 }
 
 .playback-h4 {
-  transform: rotate(-90deg)
+  transform: rotate(-90deg);
+  margin-top: 0px;
+  margin-left: -10px;
+  margin-right: 1100px;
+  margin-bottom: 0px;
+  position: absolute;
 }
+
 .playback-jack {
-    width: 30%;
-    margin-top: 100px;
+    width: 220px;
+    margin-top: 0px;
+    margin-left: 400px;
     position:absolute; 
 
   }
       .playback-text {
-        font-size: 14px;
-        width: 340px;
-        margin: 20px;
-        color: black; /*should be cream color*/
+        font-size: 10px;
+        line-height: 2.0;
+        width: 255px;
+        margin-left: 320px;
+        margin-top: 165px;
+        color:#F8F8F2; /*should be cream color*/
+        position: absolute;
       }
 
       .playback-text-box {
-        width: 35%;
+        width: 320px;
         position: absolute;
+        margin-bottom: 100px;
+        margin-left: 280px;
+        margin-top: 140px;
       }
 
 
       .playback-walking-walkman {
-        width: 10%;
+        width: 40px;
         position:absolute; 
+        margin-left: 355px;
+        margin-top: 20px;
       }
 
       .playback-line-blue {
-        width: 60%;
+        width: 34%;
         position: absolute;
+        margin-top: 410px;
+        margin-left: 80px;
       }
 
       .playback-walkman-logo {
-        width: 20%;
+        width: 22%;
         position:absolute; 
+        margin-left: -15px;
       }
 
       .playback-tapeman-trio {
-        width: 20%;
+        width: 40%;
         position: absolute;
+        margin-left: -130px;
+        margin-top: 50px;
       }
 
+      .blue {
+        margin-left: 498px;
+        margin-top: 513px;
+        font-size: 30px;
+      }
 
 /*controls page*/
+
+.page-controls {
+  background:#F8F8F2;
+  background-repeat: repeat;
+  background-image: url("images/square-grid.png");
+}
 
 .controls-walkman-wordmark{
   width: 20%;
   transform: rotate(-90deg)
 }
 .controls-h4 {
-  transform: rotate(-90deg)
+  transform: rotate(-90deg);
+  position: absolute;
 }
 
 
     .controls-text{
-        font-size: 14px;
-        width: 420px;
+        font-size: 10px;
+        line-height: 2;
+        width: 330px;
         margin: 20px;
-        color: black; /*should be cream color*/
+        color:#F8F8F2; 
+        position:absolute;
+        margin-top: 225px;
+        margin-left: 32px;
       }
 
     .controls-text-box{
-        width: 35%;
+        width: 380px;
         position: absolute;
+        margin-top: 200px;
+        margin-left: 0px;
     }
 
     .controls-headphone{
-      width: 15%;
+      width: 100px;
       position: absolute;
 }
 
 .controls-line-silver {
   width: 40%;
+  margin-top: 400px;
   position: absolute;
 
 }
 
 .controls-silver-side {
-  width: 10%;
+  width: 100px;
   position: absolute;
+  margin-left: 420px;
 }
 
 .controls-first{
-  width: 35%;
+  width: 600px;
   position: absolute;
+  margin-top: -40px;
+  margin-bottom: 100px;
 }
       /* blue anatomy page */
 
