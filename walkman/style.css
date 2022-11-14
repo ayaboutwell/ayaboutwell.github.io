@@ -38,6 +38,8 @@ img { width: 100%;}
 
 main {
     background: #F8F8F2;
+    width:700vw;
+    display:flex;
 }
 
 header {
@@ -48,13 +50,13 @@ header {
 html, body {
 
     scroll-behavior: smooth;
+    scroll-behavior: horizontal;
   }
 
 
 
 body {
     margin: 0;
-    scroll-behavior: horizontal;
     font-family: input-mono, monospace;
     font-weight: 400;
     font-style: normal;
@@ -65,9 +67,6 @@ body {
 }
 
 
-    header {
-        margin: 40px auto;   
-    }
     nav {
       position:absolute;
       top:0;
@@ -75,10 +74,6 @@ body {
     }
     .nav-img {
       width:300px;
-    }
-    main {
-    width:700vw;
-    display:flex;
     }
 
     section {
