@@ -8,3 +8,9 @@ $(.'class') .hover (function(){
 $(.'class') .click (function(){
     $(.'class') .addClass ('animatechoice')
 })
+
+$('stereo-button').hover(function () {
+
+    $('.box').toggleClass('box-rotate');
+  
+  });

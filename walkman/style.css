@@ -99,11 +99,11 @@ body {
     }
 
     .intro-walkman {
-      margin-top: 345px;
-      margin-left: 480px;
+      margin-top: 360px;
+      margin-left: 490px;
       stroke:#F8F8F2;
       stroke-width: 2%;
-     
+      width: 25%;
     }
 
 
@@ -116,6 +116,10 @@ body {
   background-image: url("images/square-grid.png");
   justify-content: center;
   justify-items: center;
+}
+
+.page-opening-text h4 {
+  margin-top: -500px;
 }
 
 .page-opening-text h4 {
@@ -163,6 +167,30 @@ body {
 
     .page-anatomy {
         background:#303647;
+    }
+
+    .page-anatomy p {
+      color:#F8F8F2;
+      margin-left: 620px;
+    }
+
+    .box {
+      background: #F8F8F2;;
+      width: 200px;
+      height: 1px;
+      margin-left: 400px;
+      transition: transform 1s linear;
+      transform-origin: left;
+      transform-style: preserve-3D;
+    }
+    
+    .box-rotate {
+      transform: scale(0);
+    }
+    
+    .stereo-button {
+      display: block;
+      margin: auto;
     }
     .circle {
         background-color:#E3C8BC;
