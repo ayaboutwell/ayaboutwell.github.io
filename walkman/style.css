@@ -361,6 +361,15 @@ margin: 0px;
 }
       /* blue anatomy page */
 
+      .hide {
+        display: none;
+      }
+          
+      .myDIV:hover + .hide {
+        display: block;
+        color: #E3C8BC;
+      }
+
 .page-anatomy{
       background-repeat: repeat;
       background-image: url("images/grid-light.png"); /*i want to rotate this image 90 deg*/
